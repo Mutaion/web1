@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">html</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+  <h2>HTML</h2>
+
+  target이 정의되지 않은 하이퍼링크나 폼을 통해 결과를 표시할 기본 로케이션을 가리킬 이름이나 키워드를 나타냅니다. HTML4에서 이것은 frame을 위한 이름이나 키워드가 되었습니다. HTML5에서 이것은 브라우징 컨텍스트(탭 ,윈도우, 인라인 프레임 같은것들)를 위한 이름이나 키워드가 되었습니다. 다음 키워드들은 특별한 의미를 가지고 있습니다:
+  _self: 결과를 현재 HTML4 프레임(or HTML5 브라우징 컨텍스트) 에 로드합니다. 이 target 속성이 정의되어있지 않은경우 이 값이 기본값이 됩니다.
+  _blank: 결과를 이름없는 새로운 HTML4 윈도우나 HTML5 브라우징 컨텍스트에 로드합니다.
+  _parent: 결과를 현재 HTML4 프레임의 부모 프레임셋에 로드하거나 부모 HTML5 브라우징 컨텍스트에 로드합니다. 만약 부모가 없을 경우 _self와 동일하게 여겨집니다.
+  _top: HTML4에서는, 다른 모든 프레임을 취소하고 결과를 꽉찬 본래의 윈도우에 로드합니다. HTML5에서는, 결과를 최상위 브라우징 컨텍스트에 로드합니다. 만약 부모가 없다면, 이 옵션은 _self와 같이 행동합니다.
+
+<img src="coding.jpg" width="100%">
+  <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup language</a>(HTML) is the standard markup languge for <strong>creating <u>web</u> pages</strong> and web applications.</P>
+  <p style="margin-top:40px;">This is a great material, based on the data, gathered from over a billion (!) documents – a thousand times larger selection, than the one this survey is based on. I’d suggest anyone in interest of web standards and HTML in particular, to have a look at the results of that research.</P>
+</body>
+</html>
